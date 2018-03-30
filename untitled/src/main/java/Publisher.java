@@ -17,4 +17,8 @@ public class Publisher {
     public void addBookToStock(Book book) {
         this.stock.add(book);
     }
+
+    public Book getBook() {
+        return stock.remove(0);
+    }
 }
