@@ -13,4 +13,8 @@ public class Publisher {
     public int getStockCount() {
         return this.stock.size();
     }
+
+    public void addBookToStock(Book book) {
+        this.stock.add(book);
+    }
 }

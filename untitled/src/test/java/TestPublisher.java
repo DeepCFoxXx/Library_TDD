@@ -19,4 +19,10 @@ public class TestPublisher {
         assertEquals(0, publisher.getStockCount());
     }
 
+    @Test
+    public void canAddBookToStock(){
+        publisher.addBookToStock(book);
+        assertEquals(1, publisher.getStockCount());
+    }
+
 }
