@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ffe4717-8569-4569-8a40-d8b57a1c5ba9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/untitled/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/main/java/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/TestLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/TestLibrary.java" afterDir="false" />
-    </list>
+    <list default="true" id="1ffe4717-8569-4569-8a40-d8b57a1c5ba9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="TestLibrary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untitled/src/test/java/TestLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="318">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#363#364#0" expanded="true" />
@@ -834,7 +831,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -912,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/src/test/java/TestLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="318">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
