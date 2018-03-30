@@ -35,4 +35,20 @@ public class TestLibrary {
         assertEquals(0, library.getBookCount());
     }
 
+    @Test
+    public void cantGoOverCapacity(){
+        for (int i = 0; i < 7; i++){
+            library.addBook(book);
+        }
+        assertEquals(5, library.getBookCount());
+    }
+
+    @Test
+    public void canBuyFromPublisher(){
+        publisher.addBookToStock(book);
+        library.buyFromPublisher(publisher);
+        assertEquals(0, publisher.getStockCount());
+        assertEquals(1, library.getBookCount());
+    }
+
 }

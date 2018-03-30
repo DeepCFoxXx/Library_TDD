@@ -17,10 +17,23 @@ public class Library {
     }
 
     public void addBook(Book book) {
-        this.books.add(book);
+        if (!isFull()){
+            this.books.add(book);
+        }
     }
 
     public void removeBook(Book book) {
         this.books.remove(book);
+    }
+
+    public boolean isFull(){
+        return books.size() < this.capacity;
+    }
+
+    public void buyFromPublisher(Publisher publisher) {
+        if (!isFull()){
+            Book book = publisher.getBook();
+            addBook(book);
+        }
     }
 }
